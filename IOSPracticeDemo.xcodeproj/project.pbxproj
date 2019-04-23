@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1254F02230E8220034CF56 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1254EF2230E8220034CF56 /* Aspects.m */; };
+		0A1254F82230E97A0034CF56 /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1254F32230E97A0034CF56 /* NullSafe.m */; };
+		0A1254F92230E97A0034CF56 /* TestNullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1254F42230E97A0034CF56 /* TestNullSafe.m */; };
+		0A1254FD2230E9A90034CF56 /* MightyCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1254FC2230E9A90034CF56 /* MightyCrash.m */; };
+		0A1255002230ECB20034CF56 /* Felix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1254FF2230ECB20034CF56 /* Felix.m */; };
 		0A798FAD222FABB100A502CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A798FAC222FABB100A502CB /* AppDelegate.m */; };
 		0A798FB0222FABB100A502CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A798FAF222FABB100A502CB /* ViewController.m */; };
 		0A798FB3222FABB100A502CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A798FB1222FABB100A502CB /* Main.storyboard */; };
@@ -15,6 +20,9 @@
 		0A798FBB222FABB200A502CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A798FBA222FABB200A502CB /* main.m */; };
 		0A798FC5222FABB200A502CB /* IOSPracticeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A798FC4222FABB200A502CB /* IOSPracticeDemoTests.m */; };
 		0A798FD0222FABB200A502CB /* IOSPracticeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A798FCF222FABB200A502CB /* IOSPracticeDemoUITests.m */; };
+		0AFFD687226EFD5200CDACDE /* THProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFD686226EFD5200CDACDE /* THProduct.m */; };
+		0AFFD68A226EFEAF00CDACDE /* THView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFD689226EFEAF00CDACDE /* THView1.m */; };
+		0AFFD68D226EFEBB00CDACDE /* THView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFD68C226EFEBB00CDACDE /* THView2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1254EE2230E8220034CF56 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		0A1254EF2230E8220034CF56 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		0A1254F22230E97A0034CF56 /* TestNullSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNullSafe.h; sourceTree = "<group>"; };
+		0A1254F32230E97A0034CF56 /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+		0A1254F42230E97A0034CF56 /* TestNullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNullSafe.m; sourceTree = "<group>"; };
+		0A1254FB2230E9A90034CF56 /* MightyCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MightyCrash.h; sourceTree = "<group>"; };
+		0A1254FC2230E9A90034CF56 /* MightyCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MightyCrash.m; sourceTree = "<group>"; };
+		0A1254FE2230ECB20034CF56 /* Felix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Felix.h; sourceTree = "<group>"; };
+		0A1254FF2230ECB20034CF56 /* Felix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Felix.m; sourceTree = "<group>"; };
 		0A798FA8222FABB100A502CB /* IOSPracticeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSPracticeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A798FAB222FABB100A502CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A798FAC222FABB100A502CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +68,12 @@
 		0A798FCB222FABB200A502CB /* IOSPracticeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSPracticeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A798FCF222FABB200A502CB /* IOSPracticeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSPracticeDemoUITests.m; sourceTree = "<group>"; };
 		0A798FD1222FABB200A502CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFFD685226EFD5200CDACDE /* THProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THProduct.h; sourceTree = "<group>"; };
+		0AFFD686226EFD5200CDACDE /* THProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THProduct.m; sourceTree = "<group>"; };
+		0AFFD688226EFEAF00CDACDE /* THView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THView1.h; sourceTree = "<group>"; };
+		0AFFD689226EFEAF00CDACDE /* THView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THView1.m; sourceTree = "<group>"; };
+		0AFFD68B226EFEBB00CDACDE /* THView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THView2.h; sourceTree = "<group>"; };
+		0AFFD68C226EFEBB00CDACDE /* THView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THView2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1254ED2230E8220034CF56 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				0A1254EE2230E8220034CF56 /* Aspects.h */,
+				0A1254EF2230E8220034CF56 /* Aspects.m */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		0A1254F12230E97A0034CF56 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				0A1254F22230E97A0034CF56 /* TestNullSafe.h */,
+				0A1254F42230E97A0034CF56 /* TestNullSafe.m */,
+				0A1254F32230E97A0034CF56 /* NullSafe.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		0A1254F52230E97A0034CF56 /* Hotfix */ = {
+			isa = PBXGroup;
+			children = (
+				0A1254FE2230ECB20034CF56 /* Felix.h */,
+				0A1254FF2230ECB20034CF56 /* Felix.m */,
+				0A1254FB2230E9A90034CF56 /* MightyCrash.h */,
+				0A1254FC2230E9A90034CF56 /* MightyCrash.m */,
+			);
+			path = Hotfix;
+			sourceTree = "<group>";
+		};
 		0A798F9F222FABB100A502CB = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +154,10 @@
 		0A798FAA222FABB100A502CB /* IOSPracticeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0AFFD684226EFD2D00CDACDE /* Model */,
+				0A1254F12230E97A0034CF56 /* Crash */,
+				0A1254F52230E97A0034CF56 /* Hotfix */,
+				0A1254ED2230E8220034CF56 /* Aspects */,
 				0A798FAB222FABB100A502CB /* AppDelegate.h */,
 				0A798FAC222FABB100A502CB /* AppDelegate.m */,
 				0A798FAE222FABB100A502CB /* ViewController.h */,
@@ -130,6 +187,19 @@
 				0A798FD1222FABB200A502CB /* Info.plist */,
 			);
 			path = IOSPracticeDemoUITests;
+			sourceTree = "<group>";
+		};
+		0AFFD684226EFD2D00CDACDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AFFD685226EFD5200CDACDE /* THProduct.h */,
+				0AFFD686226EFD5200CDACDE /* THProduct.m */,
+				0AFFD688226EFEAF00CDACDE /* THView1.h */,
+				0AFFD689226EFEAF00CDACDE /* THView1.m */,
+				0AFFD68B226EFEBB00CDACDE /* THView2.h */,
+				0AFFD68C226EFEBB00CDACDE /* THView2.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +332,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1254F02230E8220034CF56 /* Aspects.m in Sources */,
 				0A798FB0222FABB100A502CB /* ViewController.m in Sources */,
+				0AFFD68A226EFEAF00CDACDE /* THView1.m in Sources */,
+				0A1255002230ECB20034CF56 /* Felix.m in Sources */,
+				0AFFD68D226EFEBB00CDACDE /* THView2.m in Sources */,
+				0A1254F82230E97A0034CF56 /* NullSafe.m in Sources */,
+				0A1254FD2230E9A90034CF56 /* MightyCrash.m in Sources */,
 				0A798FBB222FABB200A502CB /* main.m in Sources */,
 				0A798FAD222FABB100A502CB /* AppDelegate.m in Sources */,
+				0AFFD687226EFD5200CDACDE /* THProduct.m in Sources */,
+				0A1254F92230E97A0034CF56 /* TestNullSafe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
