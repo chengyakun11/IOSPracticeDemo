@@ -23,6 +23,17 @@
 		0AFFD687226EFD5200CDACDE /* THProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFD686226EFD5200CDACDE /* THProduct.m */; };
 		0AFFD68A226EFEAF00CDACDE /* THView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFD689226EFEAF00CDACDE /* THView1.m */; };
 		0AFFD68D226EFEBB00CDACDE /* THView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFD68C226EFEBB00CDACDE /* THView2.m */; };
+		3707DCCB22B78BC1007F43DB /* SGSStaggeredFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707DCBD22B78BC1007F43DB /* SGSStaggeredFlowLayout.m */; };
+		3707DCCC22B78BC1007F43DB /* SGSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707DCBE22B78BC1007F43DB /* SGSViewController.m */; };
+		3707DCCD22B78BC1007F43DB /* SGSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3707DCBF22B78BC1007F43DB /* SGSViewController.xib */; };
+		3707DCCE22B78BC2007F43DB /* photo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3707DCC222B78BC1007F43DB /* photo4.jpg */; };
+		3707DCCF22B78BC2007F43DB /* photo5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3707DCC322B78BC1007F43DB /* photo5.jpg */; };
+		3707DCD022B78BC2007F43DB /* photo7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3707DCC422B78BC1007F43DB /* photo7.jpg */; };
+		3707DCD122B78BC2007F43DB /* photo6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3707DCC522B78BC1007F43DB /* photo6.jpg */; };
+		3707DCD222B78BC2007F43DB /* photo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3707DCC622B78BC1007F43DB /* photo2.jpg */; };
+		3707DCD322B78BC2007F43DB /* photo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3707DCC722B78BC1007F43DB /* photo3.jpg */; };
+		3707DCD422B78BC2007F43DB /* photo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3707DCC822B78BC1007F43DB /* photo1.jpg */; };
+		3707DCD522B78BC2007F43DB /* photo0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3707DCC922B78BC1007F43DB /* photo0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +85,19 @@
 		0AFFD689226EFEAF00CDACDE /* THView1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THView1.m; sourceTree = "<group>"; };
 		0AFFD68B226EFEBB00CDACDE /* THView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THView2.h; sourceTree = "<group>"; };
 		0AFFD68C226EFEBB00CDACDE /* THView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THView2.m; sourceTree = "<group>"; };
+		3707DCBD22B78BC1007F43DB /* SGSStaggeredFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSStaggeredFlowLayout.m; sourceTree = "<group>"; };
+		3707DCBE22B78BC1007F43DB /* SGSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSViewController.m; sourceTree = "<group>"; };
+		3707DCBF22B78BC1007F43DB /* SGSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGSViewController.xib; sourceTree = "<group>"; };
+		3707DCC022B78BC1007F43DB /* SGSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSViewController.h; sourceTree = "<group>"; };
+		3707DCC222B78BC1007F43DB /* photo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo4.jpg; sourceTree = "<group>"; };
+		3707DCC322B78BC1007F43DB /* photo5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo5.jpg; sourceTree = "<group>"; };
+		3707DCC422B78BC1007F43DB /* photo7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo7.jpg; sourceTree = "<group>"; };
+		3707DCC522B78BC1007F43DB /* photo6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo6.jpg; sourceTree = "<group>"; };
+		3707DCC622B78BC1007F43DB /* photo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo2.jpg; sourceTree = "<group>"; };
+		3707DCC722B78BC1007F43DB /* photo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo3.jpg; sourceTree = "<group>"; };
+		3707DCC822B78BC1007F43DB /* photo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo1.jpg; sourceTree = "<group>"; };
+		3707DCC922B78BC1007F43DB /* photo0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo0.jpg; sourceTree = "<group>"; };
+		3707DCCA22B78BC1007F43DB /* SGSStaggeredFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSStaggeredFlowLayout.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +178,7 @@
 		0A798FAA222FABB100A502CB /* IOSPracticeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3707DCBC22B78BC1007F43DB /* CollectionViewFlowLayout */,
 				0AFFD684226EFD2D00CDACDE /* Model */,
 				0A1254F12230E97A0034CF56 /* Crash */,
 				0A1254F52230E97A0034CF56 /* Hotfix */,
@@ -200,6 +225,34 @@
 				0AFFD68C226EFEBB00CDACDE /* THView2.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3707DCBC22B78BC1007F43DB /* CollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3707DCC122B78BC1007F43DB /* photos */,
+				3707DCCA22B78BC1007F43DB /* SGSStaggeredFlowLayout.h */,
+				3707DCBD22B78BC1007F43DB /* SGSStaggeredFlowLayout.m */,
+				3707DCBE22B78BC1007F43DB /* SGSViewController.m */,
+				3707DCBF22B78BC1007F43DB /* SGSViewController.xib */,
+				3707DCC022B78BC1007F43DB /* SGSViewController.h */,
+			);
+			path = CollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		3707DCC122B78BC1007F43DB /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				3707DCC222B78BC1007F43DB /* photo4.jpg */,
+				3707DCC322B78BC1007F43DB /* photo5.jpg */,
+				3707DCC422B78BC1007F43DB /* photo7.jpg */,
+				3707DCC522B78BC1007F43DB /* photo6.jpg */,
+				3707DCC622B78BC1007F43DB /* photo2.jpg */,
+				3707DCC722B78BC1007F43DB /* photo3.jpg */,
+				3707DCC822B78BC1007F43DB /* photo1.jpg */,
+				3707DCC922B78BC1007F43DB /* photo0.jpg */,
+			);
+			path = photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,8 +358,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3707DCD322B78BC2007F43DB /* photo3.jpg in Resources */,
+				3707DCCE22B78BC2007F43DB /* photo4.jpg in Resources */,
+				3707DCD122B78BC2007F43DB /* photo6.jpg in Resources */,
+				3707DCD522B78BC2007F43DB /* photo0.jpg in Resources */,
 				0A798FB8222FABB200A502CB /* LaunchScreen.storyboard in Resources */,
+				3707DCD422B78BC2007F43DB /* photo1.jpg in Resources */,
 				0A798FB5222FABB200A502CB /* Assets.xcassets in Resources */,
+				3707DCCD22B78BC1007F43DB /* SGSViewController.xib in Resources */,
+				3707DCD022B78BC2007F43DB /* photo7.jpg in Resources */,
+				3707DCCF22B78BC2007F43DB /* photo5.jpg in Resources */,
+				3707DCD222B78BC2007F43DB /* photo2.jpg in Resources */,
 				0A798FB3222FABB100A502CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,11 +398,13 @@
 				0A798FB0222FABB100A502CB /* ViewController.m in Sources */,
 				0AFFD68A226EFEAF00CDACDE /* THView1.m in Sources */,
 				0A1255002230ECB20034CF56 /* Felix.m in Sources */,
+				3707DCCB22B78BC1007F43DB /* SGSStaggeredFlowLayout.m in Sources */,
 				0AFFD68D226EFEBB00CDACDE /* THView2.m in Sources */,
 				0A1254F82230E97A0034CF56 /* NullSafe.m in Sources */,
 				0A1254FD2230E9A90034CF56 /* MightyCrash.m in Sources */,
 				0A798FBB222FABB200A502CB /* main.m in Sources */,
 				0A798FAD222FABB100A502CB /* AppDelegate.m in Sources */,
+				3707DCCC22B78BC1007F43DB /* SGSViewController.m in Sources */,
 				0AFFD687226EFD5200CDACDE /* THProduct.m in Sources */,
 				0A1254F92230E97A0034CF56 /* TestNullSafe.m in Sources */,
 			);
